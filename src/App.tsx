@@ -1,7 +1,5 @@
+import CertificateGenerator from "./CertificateGenerator";
+
 export default function App() {
-  return (
-    <h1 className='text-3xl text-red-500 font-bold underline'>
-      Certificate Generator
-    </h1>
-  );
+  return <CertificateGenerator name='Niranjan Dorage' course='App Tech Team' />;
 }
