@@ -1,3 +1,7 @@
 export default function App() {
-  return <div>Certificate Generator</div>;
+  return (
+    <h1 className='text-3xl text-red-500 font-bold underline'>
+      Certificate Generator
+    </h1>
+  );
 }
